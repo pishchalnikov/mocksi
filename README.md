@@ -36,7 +36,8 @@ $ make run
 ```
 $ curl http://localhost:9090/api/services
 ["httpd"]
-
+```
+```
 $ curl -X POST -H "Content-Type: application/json" http://localhost:9090/api/containers -d '{"image":"httpd"}'
 {
     "created": 1535901984,
@@ -47,7 +48,8 @@ $ curl -X POST -H "Content-Type: application/json" http://localhost:9090/api/con
     "status": "Up Less than a second",
     "version": "latest"
 }
-
+```
+```
 $ curl http://localhost:9090/api/containers
 [
     {
@@ -60,15 +62,18 @@ $ curl http://localhost:9090/api/containers
         "version": "latest"
     }
 ]
-
+```
+```
 $ curl http://localhost:32770
 <html><body><h1>It works!</h1></body></html>
-
+```
+```
 $ curl -X DELETE http://localhost:9090/api/containers/acf7292665249a13e5d00ed1ac8e73ce0f476f3820b1fcb8299545a926c4f9b8
 {
     "status": "OK"
 }
-
+```
+```
 $ curl http://localhost:9090/api/containers
 []
 ```
