@@ -1,5 +1,7 @@
 # MockSi
 
+[![Build Status](https://travis-ci.org/pishchalnikov/mocksi.svg?branch=master)](https://travis-ci.org/pishchalnikov/mocksi)
+
 Simple REST API Server to manage mock services in Docker containers for automation testing
 
 ## Quick start
