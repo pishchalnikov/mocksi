@@ -1,1 +1,5 @@
+# IDE files
 .idea
+
+# Byte-compiled / optimized files
+__pycache__/
